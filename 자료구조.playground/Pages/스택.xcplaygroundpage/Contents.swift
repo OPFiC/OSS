@@ -5,7 +5,8 @@ class Stack{
     func push(i:Any){
         self.arr=[i]+self.arr
     }
-    func pop()->Any{
+    func pop()->Any?{
+        if self.arr.count==0{return nil}
         return self.arr.remove(at: 0)
     }
     func clear(){
