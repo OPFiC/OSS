@@ -6,7 +6,7 @@ class Stack{
         self.arr=[i]+self.arr
     }
     func pop()->Any{
-        return self.arr.remove(at: 0)
+        return self.arr.removeLast()
     }
     func clear(){
         self.arr.removeAll()
