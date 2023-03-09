@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		DF32B67529B9C53800ED8DA1 /* OSS-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OSS-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF32B67829B9C53800ED8DA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DF9C3B2A29B9CF98005A5FFD /* Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Queue.playground; path = "OSS-Swift/Queue.playground"; sourceTree = "<group>"; };
+		DF9C3B2B29B9CFC5005A5FFD /* Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stack.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		DF32B66C29B9C53800ED8DA1 = {
 			isa = PBXGroup;
 			children = (
+				DF9C3B2B29B9CFC5005A5FFD /* Stack.playground */,
+				DF9C3B2A29B9CF98005A5FFD /* Queue.playground */,
 				DF32B67729B9C53800ED8DA1 /* OSS-Swift */,
 				DF32B67629B9C53800ED8DA1 /* Products */,
 			);
