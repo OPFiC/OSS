@@ -74,11 +74,22 @@ class SingleLinkedList{
 }
 
 var s1=SingleLinkedList()
-for i in 1...100{
-    s1.append(data:String(i))
-}
-
-for _ in 1...100{
-    print(s1.pop())
-}
+print(s1.isEmpty())
+print(s1.size())
+s1.append(data: "1")
+s1.append(data: "2")
+print(s1.size())
+s1.append(data: "3")
+s1.append(data: "4")
+s1.showAll()
+print(s1.size())
+print(s1.isEmpty())
+s1.pop()
+s1.pop()
+s1.pop()
+print(s1.size())
+s1.pop()
+print(s1.isEmpty())
+      
+            
 
